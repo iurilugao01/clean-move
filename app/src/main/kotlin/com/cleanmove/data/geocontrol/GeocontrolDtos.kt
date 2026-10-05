@@ -1,7 +1,41 @@
 package com.cleanmove.data.geocontrol
 
+import kotlinx.serialization.KSerializer
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import kotlinx.serialization.descriptors.PrimitiveKind
+import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
+import kotlinx.serialization.descriptors.SerialDescriptor
+import kotlinx.serialization.encoding.Decoder
+import kotlinx.serialization.encoding.Encoder
+import kotlinx.serialization.json.JsonDecoder
+import kotlinx.serialization.json.JsonNull
+import kotlinx.serialization.json.JsonPrimitive
+
+/**
+ * `veiculo` is a display label read from unminified app JS without a confirmed wire type —
+ * it could plausibly be sent as a JSON string or a number. Decodes either as a String so one
+ * wrong guess doesn't fail the whole response.
+ */
+object FlexibleStringSerializer : KSerializer<String?> {
+    override val descriptor: SerialDescriptor = PrimitiveSerialDescriptor("FlexibleString", PrimitiveKind.STRING)
+
+    override fun deserialize(decoder: Decoder): String? {
+        val jsonDecoder = decoder as? JsonDecoder ?: return decoder.decodeString()
+        return when (val element = jsonDecoder.decodeJsonElement()) {
+            is JsonNull -> null
+            is JsonPrimitive -> element.content
+            else -> null
+        }
+    }
+
+    // This DTO is only ever decoded (server responses), never encoded (our requests don't
+    // carry this field) — a plain string encode keeps the serializer total without relying
+    // on format-specific null-encoding support we don't otherwise need.
+    override fun serialize(encoder: Encoder, value: String?) {
+        encoder.encodeString(value ?: "")
+    }
+}
 
 // Request bodies -------------------------------------------------------
 
@@ -33,7 +67,7 @@ data class EstimativaDto(
     @SerialName("veiculoId") val veiculoId: Int? = null,
     @SerialName("itinerarioId") val itinerarioId: Int = 0,
     @SerialName("linhaId") val linhaId: Int = 0,
-    @SerialName("veiculo") val veiculo: String? = null,
+    @SerialName("veiculo") @Serializable(with = FlexibleStringSerializer::class) val veiculo: String? = null,
     @SerialName("horarioDePartida") val horarioDePartida: Long = 0,
     @SerialName("horarioNaOrigem") val horarioNaOrigem: Long = 0,
     @SerialName("horarioDaTransmissao") val horarioDaTransmissao: Long = 0,
