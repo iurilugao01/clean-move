@@ -8,6 +8,9 @@ import androidx.room.Room
 import com.cleanmove.data.ceturb.CeturbApi
 import com.cleanmove.data.ceturb.CeturbSource
 import com.cleanmove.data.ceturb.createCeturbHttpClient
+import com.cleanmove.data.geocontrol.GeocontrolApi
+import com.cleanmove.data.geocontrol.GeocontrolSource
+import com.cleanmove.data.geocontrol.createGeocontrolHttpClient
 import com.cleanmove.data.local.AppDatabase
 import com.cleanmove.data.local.CatalogDao
 import com.cleanmove.data.repository.DataStoreFavorites
@@ -28,6 +31,12 @@ private val Context.favoritesDataStore: DataStore<Preferences> by preferencesDat
 object AppModule {
     @Provides @Singleton
     fun ceturbSource(): CeturbSource = CeturbApi(createCeturbHttpClient())
+
+    // Unvalidated against a live server — see docs/spike-findings.md. Not yet consumed by
+    // any ViewModel; wiring it into the UI/ArrivalMerger needs the stop/route catalog
+    // (linhaId -> Line.code join) that a later task builds.
+    @Provides @Singleton
+    fun geocontrolSource(): GeocontrolSource = GeocontrolApi(createGeocontrolHttpClient())
 
     @Provides @Singleton
     fun database(@ApplicationContext context: Context): AppDatabase =
