@@ -27,6 +27,23 @@ class CeturbMappersTest {
     }
 
     @Test
+    fun `live Ceturb data uses separate DOMINGOS and FERIADO descriptions`() {
+        assertEquals(DayType.SUNDAY_HOLIDAY, "DOMINGOS".toDayType())
+        assertEquals(DayType.SUNDAY_HOLIDAY, "FERIADO".toDayType())
+    }
+
+    @Test
+    fun `identical sunday and holiday departures merge into one`() {
+        val departures = listOf(
+            schedule("06:15", day = "DOMINGOS"),
+            schedule("06:15", day = "FERIADO"),
+            schedule("07:00", day = "DOMINGOS"),
+        ).toDepartures()
+        assertEquals(listOf(375, 420), departures.map { it.minuteOfDay })
+        assertEquals(setOf(DayType.SUNDAY_HOLIDAY), departures.map { it.dayType }.toSet())
+    }
+
+    @Test
     fun `parses minute of day including after-midnight and bad values`() {
         assertEquals(360, parseMinuteOfDay("06:00"))
         assertEquals(10, parseMinuteOfDay("24:10"))

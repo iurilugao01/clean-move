@@ -10,7 +10,7 @@ fun LineDto.toDomain(): Line = Line(code = code, name = description.trim())
 fun String.toDayType(): DayType = when (trim().uppercase()) {
     "DIAS ÚTEIS" -> DayType.WEEKDAY
     "SÁBADO" -> DayType.SATURDAY
-    "DOMINGOS E FERIADOS" -> DayType.SUNDAY_HOLIDAY
+    "DOMINGOS E FERIADOS", "DOMINGOS", "FERIADO" -> DayType.SUNDAY_HOLIDAY
     "ATÍPICOS ENTRE FERIADOS" -> DayType.ATYPICAL
     else -> DayType.OTHER
 }
