@@ -1,0 +1,242 @@
+﻿[
+    {
+        "id":  4804,
+        "codigo":  "010I",
+        "bandeira":  "NOVA PALESTINA / FRADINHOS",
+        "linhaId":  776
+    },
+    {
+        "id":  5081,
+        "codigo":  "010I_A",
+        "bandeira":  "NOVA PALESTINA / FRADINHOS",
+        "linhaId":  776
+    },
+    {
+        "id":  4805,
+        "codigo":  "010I_F",
+        "bandeira":  "FRADINHOS",
+        "linhaId":  776
+    },
+    {
+        "id":  4806,
+        "codigo":  "010I_P",
+        "bandeira":  "NOVA PALESTINA",
+        "linhaId":  776
+    },
+    {
+        "id":  5301,
+        "codigo":  "015I",
+        "bandeira":  "ILHA DE SANTA MARIA / ROMÃO",
+        "linhaId":  778
+    },
+    {
+        "id":  3440,
+        "codigo":  "022I",
+        "bandeira":  "CONQUISTA / MATA DA PRAIA",
+        "linhaId":  779
+    },
+    {
+        "id":  3506,
+        "codigo":  "022I_F",
+        "bandeira":  "MATA DA PRAIA",
+        "linhaId":  779
+    },
+    {
+        "id":  3507,
+        "codigo":  "022I_P",
+        "bandeira":  "CONQUISTA",
+        "linhaId":  779
+    },
+    {
+        "id":  5401,
+        "codigo":  "031I",
+        "bandeira":  "ILHA DO PRÍNCIPE / SÃO BENEDITO",
+        "linhaId":  780
+    },
+    {
+        "id":  5512,
+        "codigo":  "031I_A",
+        "bandeira":  "MORRO DO PINTO / SÃO BENEDITO",
+        "linhaId":  780
+    },
+    {
+        "id":  5513,
+        "codigo":  "031I_D",
+        "bandeira":  "SÃO BENEDITO / MORRO DO PINTO",
+        "linhaId":  780
+    },
+    {
+        "id":  3455,
+        "codigo":  "031I_F",
+        "bandeira":  "ILHA DO PRÍNCIPE / SÃO BENEDITO",
+        "linhaId":  780
+    },
+    {
+        "id":  5514,
+        "codigo":  "031I_J",
+        "bandeira":  "MORRO DO PINTO / SÃO BENEDITO",
+        "linhaId":  780
+    },
+    {
+        "id":  5405,
+        "codigo":  "031I_P",
+        "bandeira":  "SÃO BENEDITO / ILHA DO PRÍNCIPE",
+        "linhaId":  780
+    },
+    {
+        "id":  5090,
+        "codigo":  "044I",
+        "bandeira":  "CURVA DA JUREMA / RESISTÊNCIA",
+        "linhaId":  782
+    },
+    {
+        "id":  5091,
+        "codigo":  "044I_F",
+        "bandeira":  "RESISTÊNCIA",
+        "linhaId":  782
+    },
+    {
+        "id":  5055,
+        "codigo":  "044I_P",
+        "bandeira":  "CURVA DA JUREMA",
+        "linhaId":  782
+    },
+    {
+        "id":  3514,
+        "codigo":  "051I",
+        "bandeira":  "SANTO ANTÔNIO / CONSOLAÇÃO / ITARARÉ",
+        "linhaId":  783
+    },
+    {
+        "id":  3443,
+        "codigo":  "052I",
+        "bandeira":  "SANTO ANTÔNIO / ITARARÉ / CONSOLAÇÃO",
+        "linhaId":  784
+    },
+    {
+        "id":  4418,
+        "codigo":  "071I",
+        "bandeira":  "MARUÍPE / CENTRO",
+        "linhaId":  785
+    },
+    {
+        "id":  4417,
+        "codigo":  "072I",
+        "bandeira":  "SÃO PEDRO / CENTRO / MARUÍPE",
+        "linhaId":  786
+    },
+    {
+        "id":  3441,
+        "codigo":  "073I_N",
+        "bandeira":  "TABUAZEIRO / BAIRRO DA PENHA",
+        "linhaId":  787
+    },
+    {
+        "id":  3497,
+        "codigo":  "073I_S",
+        "bandeira":  "TABUAZEIRO / JUCUTUQUARA",
+        "linhaId":  787
+    },
+    {
+        "id":  3929,
+        "codigo":  "074I",
+        "bandeira":  "SÃO CRISTÓVÃO / BAIRRO DA PENHA",
+        "linhaId":  789
+    },
+    {
+        "id":  3515,
+        "codigo":  "101I",
+        "bandeira":  "PRAIA DO CANTO / RODOVIÁRIA",
+        "linhaId":  790
+    },
+    {
+        "id":  3496,
+        "codigo":  "101I_F",
+        "bandeira":  "RODOVIÁRIA",
+        "linhaId":  790
+    },
+    {
+        "id":  3493,
+        "codigo":  "101I_P",
+        "bandeira":  "PRAIA DO CANTO",
+        "linhaId":  790
+    },
+    {
+        "id":  5800,
+        "codigo":  "102I",
+        "bandeira":  "SANTA TEREZA / JESUS DE NAZARÉ",
+        "linhaId":  791
+    },
+    {
+        "id":  5454,
+        "codigo":  "103I",
+        "bandeira":  "MARIO CYPRESTE / JARDIM CAMBURI",
+        "linhaId":  792
+    },
+    {
+        "id":  3495,
+        "codigo":  "103I_F",
+        "bandeira":  "JARDIM CAMBURI",
+        "linhaId":  792
+    },
+    {
+        "id":  5455,
+        "codigo":  "103I_P",
+        "bandeira":  "MARIO CYPRESTES",
+        "linhaId":  792
+    },
+    {
+        "id":  3516,
+        "codigo":  "104I",
+        "bandeira":  "SANTOS DUMONT / BELA VISTA",
+        "linhaId":  793
+    },
+    {
+        "id":  3498,
+        "codigo":  "104I_F",
+        "bandeira":  "BELA VISTA",
+        "linhaId":  793
+    },
+    {
+        "id":  3517,
+        "codigo":  "104I_P",
+        "bandeira":  "SANTOS DUMONT",
+        "linhaId":  793
+    },
+    {
+        "id":  5456,
+        "codigo":  "111I",
+        "bandeira":  "BAIRRO DO MOSCOSO / ATLÂNTICA VILLE",
+        "linhaId":  794
+    },
+    {
+        "id":  3518,
+        "codigo":  "111I_F",
+        "bandeira":  "ATLÂNTICA VILLE",
+        "linhaId":  794
+    },
+    {
+        "id":  5457,
+        "codigo":  "111I_P",
+        "bandeira":  "BAIRRO DO MOSCOSO",
+        "linhaId":  794
+    },
+    {
+        "id":  3520,
+        "codigo":  "112I",
+        "bandeira":  "MARIA ORTIZ / RODOVIÁRIA",
+        "linhaId":  795
+    },
+    {
+        "id":  3499,
+        "codigo":  "112I_F",
+        "bandeira":  "RODOVIÁRIA",
+        "linhaId":  795
+    },
+    {
+        "id":  3446,
+        "codigo":  "112I_P",
+        "bandeira":  "MARIA ORTIZ",
+        "linhaId":  795
+    }
+]

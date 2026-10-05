@@ -1,0 +1,402 @@
+﻿[
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  325,
+        "itinerarioId":  5204,
+        "dataChegadaEstimada":  1791195138000,
+        "veiculo":  "25679",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  330,
+        "itinerarioId":  5110,
+        "dataChegadaEstimada":  1791193652000,
+        "veiculo":  "12294",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  410,
+        "itinerarioId":  5765,
+        "dataChegadaEstimada":  1791195644000,
+        "veiculo":  "16304",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  414,
+        "itinerarioId":  4686,
+        "dataChegadaEstimada":  1791194086000,
+        "veiculo":  "16209",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  467,
+        "itinerarioId":  3976,
+        "dataChegadaEstimada":  1791196067000,
+        "veiculo":  "14279",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  480,
+        "itinerarioId":  4596,
+        "dataChegadaEstimada":  1791194955000,
+        "veiculo":  "22272",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  498,
+        "itinerarioId":  5587,
+        "dataChegadaEstimada":  1791197047000,
+        "veiculo":  "12305",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  507,
+        "itinerarioId":  5865,
+        "dataChegadaEstimada":  1791194195000,
+        "veiculo":  "12280",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  538,
+        "itinerarioId":  5656,
+        "dataChegadaEstimada":  1791200023000,
+        "veiculo":  "21339",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  549,
+        "itinerarioId":  5309,
+        "dataChegadaEstimada":  1791201006000,
+        "veiculo":  "15214",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  560,
+        "itinerarioId":  5836,
+        "dataChegadaEstimada":  1791196074000,
+        "veiculo":  "21292",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  649,
+        "itinerarioId":  5484,
+        "dataChegadaEstimada":  1791195725000,
+        "veiculo":  "12268",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  655,
+        "itinerarioId":  4371,
+        "dataChegadaEstimada":  1791198862000,
+        "veiculo":  "21317",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  662,
+        "itinerarioId":  1649,
+        "dataChegadaEstimada":  1791196039000,
+        "veiculo":  "16331",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  673,
+        "itinerarioId":  5393,
+        "dataChegadaEstimada":  1791198448000,
+        "veiculo":  "22237",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192360000,
+        "linhaId":  713,
+        "itinerarioId":  4265,
+        "dataChegadaEstimada":  1791194199000,
+        "veiculo":  "16168",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192420000,
+        "linhaId":  380,
+        "itinerarioId":  5721,
+        "dataChegadaEstimada":  1791193762000,
+        "veiculo":  "21254",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192420000,
+        "linhaId":  383,
+        "itinerarioId":  4642,
+        "dataChegadaEstimada":  1791194659000,
+        "veiculo":  "22204",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192420000,
+        "linhaId":  440,
+        "itinerarioId":  3234,
+        "dataChegadaEstimada":  1791194843000,
+        "veiculo":  "14235",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192420000,
+        "linhaId":  457,
+        "itinerarioId":  5555,
+        "dataChegadaEstimada":  1791194597000,
+        "veiculo":  "14164",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192420000,
+        "linhaId":  469,
+        "itinerarioId":  3720,
+        "dataChegadaEstimada":  1791194842000,
+        "veiculo":  "24276",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192420000,
+        "linhaId":  534,
+        "itinerarioId":  5859,
+        "dataChegadaEstimada":  1791194763000,
+        "veiculo":  "12135",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192420000,
+        "linhaId":  541,
+        "itinerarioId":  4538,
+        "dataChegadaEstimada":  1791199415000,
+        "veiculo":  "22360",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192420000,
+        "linhaId":  542,
+        "itinerarioId":  5831,
+        "dataChegadaEstimada":  1791195976000,
+        "veiculo":  "13216",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192420000,
+        "linhaId":  562,
+        "itinerarioId":  4361,
+        "dataChegadaEstimada":  1791200593000,
+        "veiculo":  "24181",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192420000,
+        "linhaId":  572,
+        "itinerarioId":  5838,
+        "dataChegadaEstimada":  1791197713000,
+        "veiculo":  "22374",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  366,
+        "itinerarioId":  5177,
+        "dataChegadaEstimada":  1791193822000,
+        "veiculo":  "25465",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  375,
+        "itinerarioId":  5070,
+        "dataChegadaEstimada":  1791196036000,
+        "veiculo":  "12213",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  386,
+        "itinerarioId":  4555,
+        "dataChegadaEstimada":  1791194853000,
+        "veiculo":  "21263",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  396,
+        "itinerarioId":  4608,
+        "dataChegadaEstimada":  1791194000000,
+        "veiculo":  "22934",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  407,
+        "itinerarioId":  716,
+        "dataChegadaEstimada":  1791195909000,
+        "veiculo":  "15309",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  409,
+        "itinerarioId":  1736,
+        "dataChegadaEstimada":  1791194342000,
+        "veiculo":  "24214",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  425,
+        "itinerarioId":  5549,
+        "dataChegadaEstimada":  1791194658000,
+        "veiculo":  "14290",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  443,
+        "itinerarioId":  3152,
+        "dataChegadaEstimada":  1791195318000,
+        "veiculo":  "14272",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  489,
+        "itinerarioId":  4589,
+        "dataChegadaEstimada":  1791194232000,
+        "veiculo":  "21235",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  507,
+        "itinerarioId":  5866,
+        "dataChegadaEstimada":  1791194239000,
+        "veiculo":  "12218",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  517,
+        "itinerarioId":  5598,
+        "dataChegadaEstimada":  1791194829000,
+        "veiculo":  "12325",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  526,
+        "itinerarioId":  5148,
+        "dataChegadaEstimada":  1791194768000,
+        "veiculo":  "12152",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  546,
+        "itinerarioId":  5825,
+        "dataChegadaEstimada":  1791200029000,
+        "veiculo":  "12311",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  549,
+        "itinerarioId":  5681,
+        "dataChegadaEstimada":  1791201122000,
+        "veiculo":  "15135",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  552,
+        "itinerarioId":  5651,
+        "dataChegadaEstimada":  1791197095000,
+        "veiculo":  "22319",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  560,
+        "itinerarioId":  5837,
+        "dataChegadaEstimada":  1791197287000,
+        "veiculo":  "21303",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  562,
+        "itinerarioId":  5655,
+        "dataChegadaEstimada":  1791200993000,
+        "veiculo":  "24178",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  567,
+        "itinerarioId":  4808,
+        "dataChegadaEstimada":  1791201203000,
+        "veiculo":  "24173",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  666,
+        "itinerarioId":  3361,
+        "dataChegadaEstimada":  1791199063000,
+        "veiculo":  "13236",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  672,
+        "itinerarioId":  3338,
+        "dataChegadaEstimada":  1791199340000,
+        "veiculo":  "13109",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  696,
+        "itinerarioId":  5065,
+        "dataChegadaEstimada":  1791194545000,
+        "veiculo":  "16292",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  729,
+        "itinerarioId":  5288,
+        "dataChegadaEstimada":  1791195663000,
+        "veiculo":  "25737",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  735,
+        "itinerarioId":  5057,
+        "dataChegadaEstimada":  1791197828000,
+        "veiculo":  "23116",
+        "acessibilidade":  true
+    },
+    {
+        "dataAgendada":  1791192480000,
+        "linhaId":  822,
+        "itinerarioId":  3483,
+        "dataChegadaEstimada":  1791198998000,
+        "veiculo":  "23132",
+        "acessibilidade":  true
+    }
+]

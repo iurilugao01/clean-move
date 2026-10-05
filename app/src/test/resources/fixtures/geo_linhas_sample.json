@@ -1,0 +1,202 @@
+﻿[
+    {
+        "id":  744,
+        "codigo":  "0015",
+        "descricao":  "Jockey de Itaparica/São Torquato"
+    },
+    {
+        "id":  776,
+        "codigo":  "010",
+        "descricao":  "NOVA PALESTINA / FRADINHOS (MUNICIPAL)"
+    },
+    {
+        "id":  778,
+        "codigo":  "015",
+        "descricao":  "ILHA DE SANTA MARIA / ROMÃO  (MUNICIPAL)"
+    },
+    {
+        "id":  779,
+        "codigo":  "022",
+        "descricao":  "CONQUISTA / MATA DA PRAIA  (MUNICIPAL)"
+    },
+    {
+        "id":  780,
+        "codigo":  "031",
+        "descricao":  "SÃO BENEDITO / ILHA DO PRÍNCIPE  (MUNICIPAL)"
+    },
+    {
+        "id":  782,
+        "codigo":  "044",
+        "descricao":  "CURVA DA JUREMA / RESISTÊNCIA (MUNICIPAL)"
+    },
+    {
+        "id":  783,
+        "codigo":  "051",
+        "descricao":  "SANTO ANTÔNIO / CONSOLAÇÃO / ITARARÉ (MUNICIPAL)"
+    },
+    {
+        "id":  784,
+        "codigo":  "052",
+        "descricao":  "SANTO ANTÔNIO / ITARARÉ / CONSOLAÇÃO (MUNICIPAL)"
+    },
+    {
+        "id":  785,
+        "codigo":  "071",
+        "descricao":  "SÃO PEDRO / MARUÍPE / CENTRO (MUNICIPAL)"
+    },
+    {
+        "id":  786,
+        "codigo":  "072",
+        "descricao":  "SÃO PEDRO / CENTRO / MARUÍPE (MUNICIPAL)"
+    },
+    {
+        "id":  787,
+        "codigo":  "073",
+        "descricao":  "TABUAZEIRO (MUNICIPAL)"
+    },
+    {
+        "id":  789,
+        "codigo":  "074",
+        "descricao":  "SÃO CRISTÓVÃO / BAIRRO DA PENHA (MUNICIPAL)"
+    },
+    {
+        "id":  790,
+        "codigo":  "101",
+        "descricao":  "PRAIA DO CANTO / RODOVIÁRIA (MUNICIPAL)"
+    },
+    {
+        "id":  791,
+        "codigo":  "102",
+        "descricao":  "SANTA TEREZA / JESUS DE NAZARÉ (MUNICIPAL)"
+    },
+    {
+        "id":  792,
+        "codigo":  "103",
+        "descricao":  "MARIO CYPRESTE / JARDIM CAMBURI (MUNICIPAL)"
+    },
+    {
+        "id":  793,
+        "codigo":  "104",
+        "descricao":  "SANTOS DUMONT / BELA VISTA (MUNICIPAL)"
+    },
+    {
+        "id":  794,
+        "codigo":  "111",
+        "descricao":  "BAIRRO DO MOSCOSO / ATLÂNTICA VILLE (MUNICIPAL)"
+    },
+    {
+        "id":  795,
+        "codigo":  "112",
+        "descricao":  "MARIA ORTIZ / RODOVIÁRIA (MUNICIPAL)"
+    },
+    {
+        "id":  796,
+        "codigo":  "121",
+        "descricao":  "MÁRIO CYPRESTE / JARDIM CAMBURI (MUNICIPAL)"
+    },
+    {
+        "id":  797,
+        "codigo":  "122",
+        "descricao":  "MARIA ORTIZ / RODOVIÁRIA (MUNICIPAL)"
+    },
+    {
+        "id":  798,
+        "codigo":  "123",
+        "descricao":  "BAIRRO REPÚBLICA / BELA VISTA (MUNICIPAL)"
+    },
+    {
+        "id":  799,
+        "codigo":  "124",
+        "descricao":  "JARDIM DA PENHA / ESTRELINHA (MUNICIPAL)"
+    },
+    {
+        "id":  800,
+        "codigo":  "125",
+        "descricao":  "ALTO TABUAZEIRO / FONTE GRANDE (MUNICIPAL)"
+    },
+    {
+        "id":  801,
+        "codigo":  "130",
+        "descricao":  "RESISTÊNCIA / JARDIM DA PENHA (MUNICIPAL)"
+    },
+    {
+        "id":  802,
+        "codigo":  "151",
+        "descricao":  "SANTA MARTA / RODOVIÁRIA (MUNICIPAL)"
+    },
+    {
+        "id":  803,
+        "codigo":  "161",
+        "descricao":  "MÁRIO CYPRESTE / ATLÂNTICA VILLE (MUNICIPAL)"
+    },
+    {
+        "id":  804,
+        "codigo":  "163",
+        "descricao":  "MARIA ORTIZ / PARQUE MOSCOSO (MUNICIPAL)"
+    },
+    {
+        "id":  805,
+        "codigo":  "164",
+        "descricao":  "MÁRIO CYPRESTE / JARDIM CAMBURI (MUNICIPAL)"
+    },
+    {
+        "id":  806,
+        "codigo":  "171",
+        "descricao":  "MARIO CYPRESTE / JOANA D\u0027ARC (MUNICIPAL)"
+    },
+    {
+        "id":  807,
+        "codigo":  "172",
+        "descricao":  "MARIO CYPRESTE / ITARARÉ (MUNICIPAL)"
+    },
+    {
+        "id":  808,
+        "codigo":  "173",
+        "descricao":  "TABUAZEIRO / RODOVIÁRIA  (MUNICIPAL)"
+    },
+    {
+        "id":  809,
+        "codigo":  "175",
+        "descricao":  "RESISTÊNCIA / RODOVIÁRIA  (MUNICIPAL)"
+    },
+    {
+        "id":  810,
+        "codigo":  "181",
+        "descricao":  "GRANDE VITÓRIA / TABUAZEIRO  (MUNICIPAL)"
+    },
+    {
+        "id":  811,
+        "codigo":  "182",
+        "descricao":  "MÁRIO CYPRESTE / BAIRRO DA PENHA  (MUNICIPAL)"
+    },
+    {
+        "id":  812,
+        "codigo":  "184",
+        "descricao":  "JARDIM DA PENHA / RODOVIÁRIA  (MUNICIPAL)"
+    },
+    {
+        "id":  813,
+        "codigo":  "201",
+        "descricao":  "BELA VISTA / CURVA DA JUREMA  (MUNICIPAL)"
+    },
+    {
+        "id":  814,
+        "codigo":  "202",
+        "descricao":  "CARATOÍRA / SHOPPING VITÓRIA  (MUNICIPAL)"
+    },
+    {
+        "id":  815,
+        "codigo":  "203",
+        "descricao":  "SANTA CLARA / ILHA DO BOI  (MUNICIPAL)"
+    },
+    {
+        "id":  816,
+        "codigo":  "204",
+        "descricao":  "MARIO CYPRESTE / JABURU  (MUNICIPAL)"
+    },
+    {
+        "id":  817,
+        "codigo":  "211",
+        "descricao":  "SANTO ANDRÉ / JARDIM CAMBURI  (MUNICIPAL)"
+    }
+]

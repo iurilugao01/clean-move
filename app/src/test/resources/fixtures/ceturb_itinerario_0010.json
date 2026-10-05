@@ -1,0 +1,596 @@
+﻿[
+    {
+        "Desc_Via":  "RUA DO CAJU                   ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  1,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA SÃO PEDRO                 ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  2,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA PEDESTRE                  ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  3,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA JORGE ROSA                ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  4,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA NOVA ESPERANÇA            ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  5,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA JOSÉ COELHO               ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  6,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RODOVIA SERAFIM DERENZI       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  7,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA FELICIDADE CORREA SANTOS  ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  8,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA DOUTOR BEZERRA DE MENEZES ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  9,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA GUILHERME BASSINI         ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  10,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. QUATRO DE SETEMBRO        ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  11,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RODOVIA SERAFIM DERENZI       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  12,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "TREVO FAESA CAMPUS II         ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  13,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RODOVIA SERAFIM DERENZI       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  14,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "TREVO GARAGEM VIAÇÃO GV       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  15,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RODOVIA SERAFIM DERENZI       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  16,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. SANTO ANTÔNIO             ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  17,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. DUARTE LEMOS              ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  18,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. NAIR DE AZEVEDO SILVA     ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  19,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA JOSÉ BITTENCOURT          ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  20,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. SANTO ANTÔNIO             ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  21,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. DUARTE LEMOS              ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  22,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. NAIR DE AZEVEDO SILVA     ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  23,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA ROSILDA FALCÃO DOS ANJOS  ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  24,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. ROBERTO EWALD             ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  25,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "VIADUTO GILSON FELIX          ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  26,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. ALEXANDRE BUAIZ           ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  27,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. ELIAS MIGUEL              ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  28,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. GETÚLIO VARGAS            ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  29,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. GOVERNADOR BLEY           ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  30,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. PRINCESA ISABEL           ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  31,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. VITÓRIA                   ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  32,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. PAULINO MULLER            ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  33,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "TREVO FRADINHOS               ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  34,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA JOSE MALTA                ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  35,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA ZEMINIO DE OLIVEIRA       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "I",
+        "Sequencia":  36,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA ZEMINIO DE OLIVEIRA       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  1,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA JOSE MALTA                ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  2,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "TREVO FRADINHOS               ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  3,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. PAULINO MULLER            ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  4,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. VITÓRIA                   ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  5,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA HENRIQUE NOVAES           ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  6,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. JERÔNIMO MONTEIRO         ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  7,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. FLORENTINO AVIDOS         ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  8,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA GENERAL OSORIO            ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  9,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. CLETO NUNES               ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  10,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. MARCOS DE AZEVEDO         ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  11,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. DUARTE LEMOS              ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  12,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. SANTO ANTÔNIO             ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  13,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RODOVIA SERAFIM DERENZI       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  14,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "TREVO GARAGEM VIAÇÃO GV       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  15,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RODOVIA SERAFIM DERENZI       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  16,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "TREVO FAESA CAMPUS II         ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  17,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RODOVIA SERAFIM DERENZI       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  18,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "AV. QUATRO DE SETEMBRO        ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  19,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA GUILHERME BASSINI         ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  20,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA FELICIDADE CORREA SANTOS  ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  21,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RODOVIA SERAFIM DERENZI       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  22,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA MINISTRO RUI BARBOSA      ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  23,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RODOVIA SERAFIM DERENZI       ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  24,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA DO CAJU                   ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  25,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA NOVA ESPERANÇA            ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  26,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA JORGE ROSA                ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  27,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA PEDESTRE                  ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  28,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA SÃO PEDRO                 ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  29,
+        "Tipo":  "D"
+    },
+    {
+        "Desc_Via":  "RUA DO CAJU                   ",
+        "Descricao_Linha":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010",
+        "Mensagem":  "Processamento sem Erro",
+        "Sentido":  "V",
+        "Sequencia":  30,
+        "Tipo":  "D"
+    }
+]

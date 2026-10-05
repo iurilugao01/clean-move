@@ -1,0 +1,162 @@
+﻿[
+    {
+        "Descricao":  "NOVA PALESTINA / FRADINHOS",
+        "Linha":  "0010"
+    },
+    {
+        "Descricao":  "ILHA DE SANTA MARIA / ROMÃO",
+        "Linha":  "0015"
+    },
+    {
+        "Descricao":  "CONQUISTA / MATA DA PRAIA VIA SANTA MARTHA / BOA VISTA",
+        "Linha":  "0022"
+    },
+    {
+        "Descricao":  "ILHA DO PRÍNCIPE / SÃO BENEDITO VIA SHOPPING VITÓRIA",
+        "Linha":  "0031"
+    },
+    {
+        "Descricao":  "CURVA DA JUREMA / RESISTÊNCIA VIA ANDORINHAS",
+        "Linha":  "0044"
+    },
+    {
+        "Descricao":  "SANTO ANTÔNIO / CONSOLAÇÃO / ITARARÉ",
+        "Linha":  "0051"
+    },
+    {
+        "Descricao":  "SANTO ANTÔNIO / ITARARÉ / CONSOLAÇÃO",
+        "Linha":  "0052"
+    },
+    {
+        "Descricao":  "SÃO PEDRO / MARUÍPE / CENTRO",
+        "Linha":  "0071"
+    },
+    {
+        "Descricao":  "SÃO PEDRO / CENTRO / MARUÍPE",
+        "Linha":  "0072"
+    },
+    {
+        "Descricao":  "TABUAZEIRO CIRCULAR",
+        "Linha":  "0073"
+    },
+    {
+        "Descricao":  "SÃO CRISTÓVÃO / BAIRRO DA PENHA",
+        "Linha":  "0074"
+    },
+    {
+        "Descricao":  "PRAIA DO CANTO / RODOVIÁRIA VIA ILHA DO PRÍNCIPE",
+        "Linha":  "0101"
+    },
+    {
+        "Descricao":  "SANTA TEREZA / JESUS DE NAZARETH",
+        "Linha":  "0102"
+    },
+    {
+        "Descricao":  "MÁRIO CYPRESTE / JARDIM CAMBURI VIA CARATOÍRA",
+        "Linha":  "0103"
+    },
+    {
+        "Descricao":  "SANTOS DUMONT / BELA VISTA",
+        "Linha":  "0104"
+    },
+    {
+        "Descricao":  "BAIRRO MOSCOSO / ATLÂNTICA VILLE VIA AV. VITÓRIA",
+        "Linha":  "0111"
+    },
+    {
+        "Descricao":  "MARIA ORTIZ / RODOVIÁRIA VIA AV. VITÓRIA",
+        "Linha":  "0112"
+    },
+    {
+        "Descricao":  "MÁRIO CYPRESTE / JARDIM CAMBURI VIA RETA DA PENHA",
+        "Linha":  "0121"
+    },
+    {
+        "Descricao":  "MARIA ORTIZ / RODOVIÁRIA VIA AV. VITÓRIA",
+        "Linha":  "0122"
+    },
+    {
+        "Descricao":  "BAIRRO REPÚBLICA / BELA VISTA",
+        "Linha":  "0123"
+    },
+    {
+        "Descricao":  "ESTRELINHA / JARDIM DA PENHA",
+        "Linha":  "0124"
+    },
+    {
+        "Descricao":  "ALTO TABUAZEIRO / FONTE GRANDE",
+        "Linha":  "0125"
+    },
+    {
+        "Descricao":  "RESISTÊNCIA / JARDIM DA PENHA / NOTURNO",
+        "Linha":  "0130"
+    },
+    {
+        "Descricao":  "SANTA MARTA / RODOVIÁRIA",
+        "Linha":  "0151"
+    },
+    {
+        "Descricao":  "MÁRIO CYPRESTE / ATLÂNTICA VILLE VIA MARUÍPE",
+        "Linha":  "0161"
+    },
+    {
+        "Descricao":  "MARIA ORTIZ / PARQUE MOSCOSO",
+        "Linha":  "0163"
+    },
+    {
+        "Descricao":  "MÁRIO CYPRESTE / JARDIM CAMBURI VIA MARECHAL CAMPOS",
+        "Linha":  "0164"
+    },
+    {
+        "Descricao":  "MÁRIO CYPRESTE / JOANA D\u0027ARC",
+        "Linha":  "0171"
+    },
+    {
+        "Descricao":  "MÁRIO CYPRESTE / ITARARÉ",
+        "Linha":  "0172"
+    },
+    {
+        "Descricao":  "TABUAZEIRO / RODOVIÁRIA",
+        "Linha":  "0173"
+    },
+    {
+        "Descricao":  "RESISTÊNCIA / RODOVIÁRIA",
+        "Linha":  "0175"
+    },
+    {
+        "Descricao":  "GRANDE VITÓRIA / TABUAZEIRO VIA BAIRRO UNIVERSITÁRIO",
+        "Linha":  "0181"
+    },
+    {
+        "Descricao":  "MÁRIO CYPRESTE / BAIRRO DA PENHA VIA ALAGOANO",
+        "Linha":  "0182"
+    },
+    {
+        "Descricao":  "RODOVIÁRIA / JARDIM DA PENHA VIA MARUÍPE",
+        "Linha":  "0184"
+    },
+    {
+        "Descricao":  "BELA VISTA / CURVA DA JUREMA",
+        "Linha":  "0201"
+    },
+    {
+        "Descricao":  "CARATOÍRA / SHOPPING VITÓRIA VIA BEIRA MAR",
+        "Linha":  "0202"
+    },
+    {
+        "Descricao":  "SANTA CLARA / ILHA DO BOI VIA PARQUE MOSCOSO",
+        "Linha":  "0203"
+    },
+    {
+        "Descricao":  "HORTO MERCADO / JABURU",
+        "Linha":  "0204"
+    },
+    {
+        "Descricao":  "SANTO ANDRÉ / JARDIM CAMBURI",
+        "Linha":  "0211"
+    },
+    {
+        "Descricao":  "MARIA ORTIZ / SANTO ANTÔNIO VIA BEIRA MAR",
+        "Linha":  "0212"
+    }
+]

@@ -1,0 +1,352 @@
+﻿[
+    {
+        "itinerarioId":  510,
+        "ordem":  1,
+        "pontoDeParadaId":  5244,
+        "embarque":  true,
+        "desembarque":  false
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  2,
+        "pontoDeParadaId":  381,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  3,
+        "pontoDeParadaId":  377,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  4,
+        "pontoDeParadaId":  378,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  5,
+        "pontoDeParadaId":  345,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  6,
+        "pontoDeParadaId":  346,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  7,
+        "pontoDeParadaId":  3085,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  8,
+        "pontoDeParadaId":  342,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  9,
+        "pontoDeParadaId":  3041,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  10,
+        "pontoDeParadaId":  3039,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  11,
+        "pontoDeParadaId":  3037,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  12,
+        "pontoDeParadaId":  3036,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  13,
+        "pontoDeParadaId":  3034,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  14,
+        "pontoDeParadaId":  2942,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  15,
+        "pontoDeParadaId":  2944,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  16,
+        "pontoDeParadaId":  2947,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  17,
+        "pontoDeParadaId":  3032,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  18,
+        "pontoDeParadaId":  3030,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  19,
+        "pontoDeParadaId":  3022,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  20,
+        "pontoDeParadaId":  3019,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  21,
+        "pontoDeParadaId":  3017,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  22,
+        "pontoDeParadaId":  3015,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  23,
+        "pontoDeParadaId":  3014,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  24,
+        "pontoDeParadaId":  3011,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  25,
+        "pontoDeParadaId":  3009,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  26,
+        "pontoDeParadaId":  3007,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  27,
+        "pontoDeParadaId":  3004,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  28,
+        "pontoDeParadaId":  2996,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  29,
+        "pontoDeParadaId":  2994,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  30,
+        "pontoDeParadaId":  2992,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  31,
+        "pontoDeParadaId":  2965,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  32,
+        "pontoDeParadaId":  2967,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  33,
+        "pontoDeParadaId":  2968,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  34,
+        "pontoDeParadaId":  2970,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  35,
+        "pontoDeParadaId":  2973,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  36,
+        "pontoDeParadaId":  2975,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  37,
+        "pontoDeParadaId":  2977,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  510,
+        "ordem":  38,
+        "pontoDeParadaId":  2836,
+        "embarque":  false,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  533,
+        "ordem":  1,
+        "pontoDeParadaId":  3839,
+        "embarque":  true,
+        "desembarque":  false
+    },
+    {
+        "itinerarioId":  533,
+        "ordem":  2,
+        "pontoDeParadaId":  3837,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  533,
+        "ordem":  3,
+        "pontoDeParadaId":  3834,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  533,
+        "ordem":  4,
+        "pontoDeParadaId":  3847,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  533,
+        "ordem":  5,
+        "pontoDeParadaId":  3849,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  533,
+        "ordem":  6,
+        "pontoDeParadaId":  3859,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  533,
+        "ordem":  7,
+        "pontoDeParadaId":  3862,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  533,
+        "ordem":  8,
+        "pontoDeParadaId":  3864,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  533,
+        "ordem":  9,
+        "pontoDeParadaId":  3866,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  533,
+        "ordem":  10,
+        "pontoDeParadaId":  3871,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  533,
+        "ordem":  11,
+        "pontoDeParadaId":  3869,
+        "embarque":  true,
+        "desembarque":  true
+    },
+    {
+        "itinerarioId":  533,
+        "ordem":  12,
+        "pontoDeParadaId":  3878,
+        "embarque":  true,
+        "desembarque":  true
+    }
+]
