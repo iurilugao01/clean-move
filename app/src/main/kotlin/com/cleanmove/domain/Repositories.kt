@@ -22,6 +22,10 @@ interface StopCatalog {
     suspend fun tripsFor(routeId: Int): List<GeoTrip>
 }
 
+interface LiveArrivals {
+    suspend fun forStop(stopId: Int, nowMs: Long): Result<List<LiveStopArrival>>
+}
+
 interface FavoritesStore {
     val favoriteLines: Flow<Set<String>>
     suspend fun toggleLine(code: String)
