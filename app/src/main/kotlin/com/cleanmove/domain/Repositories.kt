@@ -26,6 +26,10 @@ interface LiveArrivals {
     suspend fun forStop(stopId: Int, nowMs: Long): Result<List<LiveStopArrival>>
 }
 
+interface EstimatedArrivals {
+    suspend fun forStop(stopId: Int, nowMinuteOfDay: Int, dayType: DayType): List<EstimatedStopArrival>
+}
+
 interface FavoritesStore {
     val favoriteLines: Flow<Set<String>>
     suspend fun toggleLine(code: String)
