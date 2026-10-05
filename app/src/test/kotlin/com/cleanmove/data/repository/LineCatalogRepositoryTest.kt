@@ -125,4 +125,43 @@ class LineCatalogRepositoryTest {
     @Test fun `loadDetail fails for an unknown line`() = runTest {
         assertTrue(repo.loadDetail("9999").isFailure)
     }
+
+    @Test fun `an empty lines response over a populated cache keeps the cache and fails`() = runTest {
+        repo.refreshLinesIfStale()
+        clock += day + 1
+        source.lines = emptyList()
+        assertTrue(repo.refreshLinesIfStale().isFailure)
+        repo.observeLines("").test { assertEquals(2, awaitItem().size); cancel() }
+    }
+
+    @Test fun `an empty lines response on first load fails and is not cached as fresh`() = runTest {
+        source.lines = emptyList()
+        assertTrue(repo.refreshLinesIfStale().isFailure)
+        source.lines = listOf(LineDto("TABUAZEIRO CIRCULAR", "0073"))
+        assertTrue(repo.refreshLinesIfStale().isSuccess)
+        assertEquals(2, source.lineCalls)
+        repo.observeLines("").test { assertEquals(listOf("0073"), awaitItem().map { it.code }); cancel() }
+    }
+
+    @Test fun `an empty detail response over a populated cache keeps the stale detail`() = runTest {
+        repo.refreshLinesIfStale()
+        repo.loadDetail("0010")
+        clock += day + 1
+        source.schedules = emptyList(); source.itinerary = emptyList()
+        val detail = repo.loadDetail("0010").getOrThrow()
+        assertEquals(1, detail.schedules.size)
+        assertEquals(1, detail.itinerary.size)
+        repo.loadDetail("0010")
+        assertEquals(3, source.detailCalls)
+    }
+
+    @Test fun `a new cache version ignores previously cached data`() = runTest {
+        repo.refreshLinesIfStale()
+        val upgraded = LineCatalogRepository(source, db.catalogDao(), now = { clock }, ttlMillis = day, cacheVersion = 2)
+        upgraded.refreshLinesIfStale()
+        assertEquals(2, source.lineCalls)
+        upgraded.loadDetail("0010")
+        repo.loadDetail("0010")
+        assertEquals(2, source.detailCalls)
+    }
 }

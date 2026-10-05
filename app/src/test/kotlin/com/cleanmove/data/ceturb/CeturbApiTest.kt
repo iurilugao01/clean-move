@@ -17,7 +17,7 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 
 class CeturbApiTest {
-    private val json = Json { ignoreUnknownKeys = true }
+    private val json = ceturbJson
 
     private fun api(contentType: String, body: String, status: HttpStatusCode = HttpStatusCode.OK, onRequest: (String) -> Unit = {}): CeturbApi {
         val engine = MockEngine { request ->
@@ -55,6 +55,24 @@ class CeturbApiTest {
             listOf("https://example.test/api/BuscaHorarios/001", "https://example.test/api/BuscaItinerarios/001"),
             urls,
         )
+    }
+
+    @Test
+    fun `null string fields fall back to defaults instead of failing the response`() = runTest {
+        val api = api("application/json", """[{"Descricao":null,"Linha":"0010"}]""")
+        assertEquals(listOf(LineDto("", "0010")), api.lines())
+    }
+
+    @Test
+    fun `null fields in schedules and itinerary rows are tolerated`() = runTest {
+        val schedules = api(
+            "application/json",
+            """[{"Desc_Terminal":null,"Descricao_Hora":null,"Hora_Saida":"06:00","Linha":"0010","Terminal_Seq":1,"Tipo_Orientacao":null}]""",
+        ).schedules("0010")
+        assertEquals(1, schedules.size)
+        assertEquals("", schedules.single().terminalName)
+        val steps = api("application/json", """[{"Desc_Via":null,"Linha":"0010","Sentido":"I","Sequencia":1}]""").itinerary("0010")
+        assertEquals("", steps.single().street)
     }
 
     @Test(expected = Exception::class)

@@ -37,6 +37,12 @@ class CeturbApi(
     }
 }
 
+val ceturbJson = Json {
+    ignoreUnknownKeys = true
+    isLenient = true
+    coerceInputValues = true
+}
+
 fun createCeturbHttpClient(): HttpClient = HttpClient(OkHttp) {
     expectSuccess = true
     install(HttpTimeout) {
@@ -44,6 +50,6 @@ fun createCeturbHttpClient(): HttpClient = HttpClient(OkHttp) {
         connectTimeoutMillis = 8_000
     }
     install(ContentNegotiation) {
-        json(Json { ignoreUnknownKeys = true; isLenient = true }, ContentType.Any)
+        json(ceturbJson, ContentType.Any)
     }
 }

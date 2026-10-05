@@ -31,7 +31,9 @@ object AppModule {
 
     @Provides @Singleton
     fun database(@ApplicationContext context: Context): AppDatabase =
-        Room.databaseBuilder(context, AppDatabase::class.java, "clean-move.db").build()
+        Room.databaseBuilder(context, AppDatabase::class.java, "clean-move.db")
+            .fallbackToDestructiveMigration() // the database is a disposable cache of remote data
+            .build()
 
     @Provides fun catalogDao(db: AppDatabase): CatalogDao = db.catalogDao()
 
