@@ -15,6 +15,7 @@ import com.cleanmove.ui.favorites.FavoritesScreen
 import com.cleanmove.ui.line.LineDetailScreen
 import com.cleanmove.ui.map.MapPlaceholderScreen
 import com.cleanmove.ui.search.SearchScreen
+import com.cleanmove.ui.stop.StopDetailScreen
 import com.cleanmove.ui.theme.CleanMoveTheme
 
 @Composable
@@ -38,10 +39,13 @@ fun CleanMoveApp() {
         ) { padding ->
             NavHost(nav, startDestination = Tab.Map.route, modifier = Modifier.padding(padding)) {
                 composable(Tab.Map.route) { MapPlaceholderScreen() }
-                composable(Tab.Search.route) { SearchScreen(onLineClick = { nav.navigate("line/$it") }, onStopClick = {}) }
+                composable(Tab.Search.route) { SearchScreen(onLineClick = { nav.navigate("line/$it") }, onStopClick = { nav.navigate("stop/$it") }) }
                 composable(Tab.Favorites.route) { FavoritesScreen(onLineClick = { nav.navigate("line/$it") }) }
                 composable("line/{code}", arguments = listOf(navArgument("code") { type = NavType.StringType })) {
                     LineDetailScreen(onBack = { nav.popBackStack() })
+                }
+                composable("stop/{stopId}", arguments = listOf(navArgument("stopId") { type = NavType.IntType })) {
+                    StopDetailScreen(onBack = { nav.popBackStack() })
                 }
             }
         }
