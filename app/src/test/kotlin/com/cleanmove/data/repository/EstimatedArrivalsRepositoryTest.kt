@@ -35,6 +35,7 @@ private class EstimatedFixedStopCatalog(
     val associationsByRoute: Map<Int, List<GeoAssociation>> = emptyMap(),
     val tripsByRoute: Map<Int, List<GeoTrip>> = emptyMap(),
     val stopsById: Map<Int, GeoStop> = emptyMap(),
+    val routeCodeByRoute: Map<Int, String?> = emptyMap(),
 ) : StopCatalog {
     var tripsCalls = 0
     override fun observeStops(query: String): Flow<List<GeoStop>> = flowOf(emptyList())
@@ -45,6 +46,7 @@ private class EstimatedFixedStopCatalog(
     override suspend fun routesServing(stopId: Int): List<Int> = routesByStop[stopId].orEmpty()
     override suspend fun stopOrderWithinRoute(routeId: Int): List<GeoAssociation> = associationsByRoute[routeId].orEmpty()
     override suspend fun tripsFor(routeId: Int): List<GeoTrip> { tripsCalls++; return tripsByRoute[routeId].orEmpty() }
+    override suspend fun routeCode(routeId: Int): String? = routeCodeByRoute[routeId]
 }
 
 private class EstimatedFixedLineCatalog(private val details: Map<String, LineDetail>) : LineCatalog {
@@ -147,6 +149,63 @@ class EstimatedArrivalsRepositoryTest {
         assertEquals(listOf(480), result.map { it.minuteOfDay })
     }
 
+    @Test fun `two routes resolving to the same line but different directions each surface only their own direction, deduplicated`() = runTest {
+        // route 1 -> ida ("...I"), route 2 -> volta ("...V"), both resolve to the same line 0010.
+        val outbound = weekdaySchedule.copy(direction = 1, minuteOfDay = 480, terminalName = "NOVA PALESTINA")
+        val inbound = weekdaySchedule.copy(direction = 2, minuteOfDay = 485, terminalName = "FRADINHOS")
+        val detail = LineDetail(line0010, listOf(outbound, inbound), emptyList())
+        val lineCatalog = EstimatedFixedLineCatalog(mapOf("0010" to detail))
+        val stopCatalog = EstimatedFixedStopCatalog(
+            routesByStop = mapOf(404 to listOf(1, 2)),
+            lineIdByRoute = mapOf(1 to 776, 2 to 776),
+            routeCodeByRoute = mapOf(1 to "010I", 2 to "010V"),
+        )
+        val geoCatalog = FakeGeoCodeCatalog(776, "010")
+        val repo = EstimatedArrivalsRepository(stopCatalog, db.geoDao(), LineCodeResolver(geoCatalog, lineCatalog), lineCatalog, now = { 0 })
+
+        val result = repo.forStop(404, nowMinuteOfDay = 480, dayType = DayType.WEEKDAY)
+
+        // exactly one departure per direction, no duplicates, and loadDetail was effectively used once per distinct line.
+        assertEquals(listOf(480, 485), result.map { it.minuteOfDay }.sorted())
+        assertEquals(2, result.size)
+    }
+
+    @Test fun `two routes resolving to the same line and same direction are deduplicated to a single departure`() = runTest {
+        val detail = LineDetail(line0010, listOf(weekdaySchedule.copy(direction = 1, minuteOfDay = 480)), emptyList())
+        val lineCatalog = EstimatedFixedLineCatalog(mapOf("0010" to detail))
+        val stopCatalog = EstimatedFixedStopCatalog(
+            routesByStop = mapOf(404 to listOf(1, 2)),
+            lineIdByRoute = mapOf(1 to 776, 2 to 776),
+            routeCodeByRoute = mapOf(1 to "010I", 2 to "010I"),
+        )
+        val geoCatalog = FakeGeoCodeCatalog(776, "010")
+        val repo = EstimatedArrivalsRepository(stopCatalog, db.geoDao(), LineCodeResolver(geoCatalog, lineCatalog), lineCatalog, now = { 0 })
+
+        val result = repo.forStop(404, nowMinuteOfDay = 480, dayType = DayType.WEEKDAY)
+
+        assertEquals(1, result.size) // not duplicated once per route
+    }
+
+    @Test fun `when a route's direction cannot be determined, that line's schedule is not filtered by direction and does not crash`() = runTest {
+        val detail = LineDetail(line0010, listOf(
+            weekdaySchedule.copy(direction = 1, minuteOfDay = 480),
+            weekdaySchedule.copy(direction = 2, minuteOfDay = 481),
+        ), emptyList())
+        val lineCatalog = EstimatedFixedLineCatalog(mapOf("0010" to detail))
+        val stopCatalog = EstimatedFixedStopCatalog(
+            routesByStop = mapOf(404 to listOf(1)),
+            lineIdByRoute = mapOf(1 to 776),
+            routeCodeByRoute = mapOf(1 to null), // unknown direction
+        )
+        val geoCatalog = FakeGeoCodeCatalog(776, "010")
+        val repo = EstimatedArrivalsRepository(stopCatalog, db.geoDao(), LineCodeResolver(geoCatalog, lineCatalog), lineCatalog, now = { 0 })
+
+        val result = repo.forStop(404, nowMinuteOfDay = 480, dayType = DayType.WEEKDAY)
+
+        // unknown direction -> fallback keeps both directions, undeduplicated-by-direction but still only one loadDetail/line.
+        assertEquals(listOf(480, 481), result.map { it.minuteOfDay }.sorted())
+    }
+
     @Test fun `multiple departures of the same line inside the window all appear`() = runTest {
         val detail = LineDetail(line0010, listOf(weekdaySchedule.copy(minuteOfDay = 480), weekdaySchedule.copy(minuteOfDay = 520)), emptyList())
         val lineCatalog = EstimatedFixedLineCatalog(mapOf("0010" to detail))
@@ -168,4 +227,5 @@ private class FakeGeoCodeCatalog(private val lineId: Int, private val code: Stri
     override suspend fun routesServing(stopId: Int): List<Int> = emptyList()
     override suspend fun stopOrderWithinRoute(routeId: Int): List<GeoAssociation> = emptyList()
     override suspend fun tripsFor(routeId: Int): List<GeoTrip> = emptyList()
+    override suspend fun routeCode(routeId: Int): String? = null
 }

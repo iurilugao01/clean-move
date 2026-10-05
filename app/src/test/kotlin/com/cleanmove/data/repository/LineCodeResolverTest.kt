@@ -21,6 +21,7 @@ private class FixedStopCatalog(private val codes: Map<Int, String>) : StopCatalo
     override suspend fun lineCode(lineId: Int): String? = codes[lineId]
     override suspend fun lineIdForRoute(routeId: Int): Int? = null
     override suspend fun routesServing(stopId: Int): List<Int> = emptyList()
+    override suspend fun routeCode(routeId: Int): String? = null
     override suspend fun stopOrderWithinRoute(routeId: Int): List<GeoAssociation> = emptyList()
     override suspend fun tripsFor(routeId: Int): List<GeoTrip> = emptyList()
 }

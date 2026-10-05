@@ -24,6 +24,9 @@ interface GeoDao {
     @Query("SELECT DISTINCT routeId FROM geo_associations WHERE stopId = :stopId")
     suspend fun routesServing(stopId: Int): List<Int>
 
+    @Query("SELECT code FROM geo_routes WHERE id = :routeId")
+    suspend fun routeCode(routeId: Int): String?
+
     @Query("SELECT * FROM geo_associations WHERE routeId = :routeId ORDER BY `order`")
     suspend fun associationsForRoute(routeId: Int): List<GeoAssociationEntity>
 
@@ -53,6 +56,31 @@ interface GeoDao {
     ) {
         deleteStops(); deleteLines(); deleteRoutes(); deleteAssociations(); deleteTrips()
         insertStops(stops); insertLines(lines); insertRoutes(routes); insertAssociations(associations); insertTrips(trips)
+        putGeoMeta(meta)
+    }
+
+    /** Core phase of the geo-static refresh: what Buscar/stop search actually needs (stops, lines, routes). */
+    @Transaction
+    suspend fun replaceCore(
+        stops: List<GeoStopEntity>,
+        lines: List<GeoLineEntity>,
+        routes: List<GeoRouteEntity>,
+        meta: SyncMeta,
+    ) {
+        deleteStops(); deleteLines(); deleteRoutes()
+        insertStops(stops); insertLines(lines); insertRoutes(routes)
+        putGeoMeta(meta)
+    }
+
+    /** Extended phase of the geo-static refresh: the larger, more failure-prone dumps (associations, trips). */
+    @Transaction
+    suspend fun replaceExtended(
+        associations: List<GeoAssociationEntity>,
+        trips: List<GeoTripEntity>,
+        meta: SyncMeta,
+    ) {
+        deleteAssociations(); deleteTrips()
+        insertAssociations(associations); insertTrips(trips)
         putGeoMeta(meta)
     }
 

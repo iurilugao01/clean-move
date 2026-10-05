@@ -24,6 +24,7 @@ import java.io.IOException
 
 private class FakeStaticSource : GeocontrolStaticSource {
     var fail = false
+    var failAssociations = false
     var calls = 0
     var stops = listOf(StaticPontoDto(id = 404, codigo = "110001", municipio = "Vitória", logradouro = "Avenida Paulino Muller", longitude = -40.31, latitude = -20.31, terminal = false))
     var lines = listOf(StaticLinhaDto(id = 776, codigo = "010", descricao = "NOVA PALESTINA / FRADINHOS"))
@@ -37,7 +38,11 @@ private class FakeStaticSource : GeocontrolStaticSource {
     override suspend fun stops() = check().let { stops }
     override suspend fun lines() = check().let { lines }
     override suspend fun routes() = check().let { routes }
-    override suspend fun associations() = check().let { associations }
+    override suspend fun associations(): List<AssociacaoDto> {
+        calls++
+        if (fail || failAssociations) throw IOException("offline")
+        return associations
+    }
     override suspend fun tripsNext7Days() = check().let { trips }
     private fun check() { calls++; if (fail) throw IOException("offline") }
 }
@@ -102,6 +107,19 @@ class GeoStaticCatalogRepositoryTest {
         repo.refreshIfStale()
         assertEquals(1, repo.tripsFor(4804).size)
         assertTrue(repo.tripsFor(9999).isEmpty())
+    }
+
+    @Test fun `when the extended phase fails, the core phase (stops, lines, routes) is still persisted`() = runTest {
+        source.associations = emptyList() // not used directly, failure is driven by failAssociations below
+        source.failAssociations = true
+
+        val result = repo.refreshIfStale()
+
+        // core succeeded even though extended (associations/trips) failed, so the overall result is still success.
+        assertTrue(result.isSuccess)
+        repo.observeStops("").test { assertEquals(1, awaitItem().size); cancel() }
+        assertEquals(404, repo.stop(404)?.id)
+        assertEquals("010", repo.lineCode(776))
     }
 
     @Test fun `a failed refresh with an empty cache fails, with cache it keeps serving the old data`() = runTest {

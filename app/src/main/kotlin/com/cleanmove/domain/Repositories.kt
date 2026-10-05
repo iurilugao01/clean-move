@@ -18,6 +18,7 @@ interface StopCatalog {
     suspend fun lineCode(lineId: Int): String?
     suspend fun lineIdForRoute(routeId: Int): Int?
     suspend fun routesServing(stopId: Int): List<Int>
+    suspend fun routeCode(routeId: Int): String?
     suspend fun stopOrderWithinRoute(routeId: Int): List<GeoAssociation>
     suspend fun tripsFor(routeId: Int): List<GeoTrip>
 }
