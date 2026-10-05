@@ -21,8 +21,37 @@ data class LineDetail(
     val itinerary: List<ItineraryStep>,
 )
 
-data class LiveArrival(val lineCode: String, val minutesAway: Int)
+data class GeoStop(
+    val id: Int,
+    val code: String?,
+    val description: String?,
+    val street: String?,
+    val municipality: String?,
+    val latitude: Double,
+    val longitude: Double,
+    val isTerminal: Boolean,
+)
 
-data class ScheduledArrival(val lineCode: String, val minuteOfDay: Int)
+/** One live bus, as shown in "Ao vivo" mode. [lineCode] is null when the Geocontrol
+ * linhaId could not be resolved to a Ceturb line — [rawLineLabel] is shown instead. */
+data class LiveStopArrival(
+    val lineCode: String?,
+    val rawLineLabel: String?,
+    val lineName: String?,
+    val vehicleLabel: String?,
+    val minutesAway: Int,
+    val hasAccessibility: Boolean,
+    val hasAirConditioning: Boolean,
+    val hasWifi: Boolean,
+    val reliability: Reliability,
+)
 
-data class Arrival(val lineCode: String, val liveMinutes: Int?, val scheduledMinuteOfDay: Int?)
+/** One scheduled departure, as shown in "Estimativas" mode. [isInterpolated] is true
+ * when [minuteOfDay] includes a calibrated per-stop offset; false when it is the plain
+ * terminal departure time (no calibration available yet for this line). */
+data class EstimatedStopArrival(
+    val lineCode: String,
+    val lineName: String,
+    val minuteOfDay: Int,
+    val isInterpolated: Boolean,
+)
