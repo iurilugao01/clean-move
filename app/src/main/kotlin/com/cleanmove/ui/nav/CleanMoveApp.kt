@@ -38,7 +38,7 @@ fun CleanMoveApp() {
         ) { padding ->
             NavHost(nav, startDestination = Tab.Map.route, modifier = Modifier.padding(padding)) {
                 composable(Tab.Map.route) { MapPlaceholderScreen() }
-                composable(Tab.Search.route) { SearchScreen(onLineClick = { nav.navigate("line/$it") }) }
+                composable(Tab.Search.route) { SearchScreen(onLineClick = { nav.navigate("line/$it") }, onStopClick = {}) }
                 composable(Tab.Favorites.route) { FavoritesScreen(onLineClick = { nav.navigate("line/$it") }) }
                 composable("line/{code}", arguments = listOf(navArgument("code") { type = NavType.StringType })) {
                     LineDetailScreen(onBack = { nav.popBackStack() })
