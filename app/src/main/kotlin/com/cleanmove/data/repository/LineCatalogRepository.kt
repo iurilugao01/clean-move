@@ -77,6 +77,8 @@ class LineCatalogRepository(
         }
     }
 
+    override suspend fun lineByCode(code: String): Line? = dao.line(code)?.let { Line(it.code, it.name) }
+
     private fun isFresh(updatedAt: Long?): Boolean = updatedAt != null && now() - updatedAt < ttlMillis
 
     private suspend fun readDetail(line: Line): LineDetail = LineDetail(

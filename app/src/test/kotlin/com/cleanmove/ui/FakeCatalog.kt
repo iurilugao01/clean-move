@@ -21,6 +21,7 @@ class FakeCatalog(
 
     override suspend fun refreshLinesIfStale(): Result<Unit> { refreshCalls++; return refreshResult }
     override suspend fun loadDetail(code: String): Result<LineDetail> = detailResult
+    override suspend fun lineByCode(code: String): Line? = lines.value.firstOrNull { it.code == code }
 }
 
 class FakeFavorites(initial: Set<String> = emptySet()) : FavoritesStore {

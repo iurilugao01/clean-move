@@ -8,6 +8,7 @@ interface LineCatalog {
     fun observeLines(query: String): Flow<List<Line>>
     suspend fun refreshLinesIfStale(): Result<Unit>
     suspend fun loadDetail(code: String): Result<LineDetail>
+    suspend fun lineByCode(code: String): Line?
 }
 
 interface StopCatalog {
